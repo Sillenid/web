@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="5.6.4">
+    <config>
+        <recursos>recursos</recursos>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>E6B8FE</corfondo>
+        <corbanda>A303F8</corbanda>
+        <cornavega>7602B5</cornavega>
+        <cormensaxes>7602B5</cormensaxes>
+        <cortexto>000000</cortexto>
+        <titulo>Operaciones </titulo>
+        <subtitulo>Sumas y restas</subtitulo>
+        <autor>Sillenid Ruiz</autor>
+        <logo>operaciones-basicas-de-matematicas.jpg</logo>
+        <imaxefondo posx="-10" posy="54" trans="100">c99ef8af70bf2b8fb811880a1568faad.jpg</imaxefondo>
+        <informe>1</informe>
+        <botonson>1</botonson>
+        <maximizar>1</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="SONIDO_RESPUESTA_CORRECTA.mp3" modo="1" >¡Felicitaciones!</correcto>
+        <incorrecto son="DERROTA_EFECTO_DE_SONIDO__PERDIDA__DECEPCION__FRACASO__DEFEAT_SOUND_EFFECT_–_SIN_COPYRIGHT.mp3" modo="1" >¡Rayos, sigue intentando!</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>2</tipo>
+              <texto posx="36" posy="10" ancho="523" largo="72"><![CDATA[
+<p align="center">
+<font color="#000000" face="Lucida" size="20">OPERACIONES MATEMÁTICAS<br>
+</font></p>
+]]></texto>
+              <cfondo>FFFFFF</cfondo>
+              <ctexto>000000</ctexto>
+              <chtml>1</chtml>
+        </paxina>
+        <paxina id="2" >
+              <tipo>31</tipo>
+              <valor texto="Debes pagar 140.000 con billetes diferentes">140000</valor>
+              <etiqueta imaxe="billete_de_10.jpg" texto="Diez mil">10000</etiqueta>
+              <etiqueta imaxe="billete_de_100.jpg" texto="Cien mil">100000</etiqueta>
+              <etiqueta imaxe="billete_de_20.jpg" texto="Veinte mil">20000</etiqueta>
+              <etiqueta imaxe="billete_de_50.jpg" texto="Cincuenta mil">50000</etiqueta>
+        </paxina>
+        <paxina id="3" >
+              <tipo>26</tipo>
+              <modo>0</modo>
+              <forma>+</forma>
+              <numero>3467</numero>
+              <numero>5463</numero>
+              <numero>4314</numero>
+              <numero>76</numero>
+        </paxina>
+        <paxina id="4" >
+              <tipo>26</tipo>
+              <modo>0</modo>
+              <forma>+</forma>
+              <numero>3467</numero>
+              <numero>5467</numero>
+              <numero>43198</numero>
+              <numero>76</numero>
+        </paxina>
+        <paxina id="5" >
+              <tipo>33</tipo>
+              <modo>0</modo>
+              <forma>1</forma>
+              <numero>5</numero>
+              <numero>4</numero>
+        </paxina>
+        <paxina id="6" >
+              <tipo>2</tipo>
+              <texto posx="117" posy="43" ancho="306" largo="176"><![CDATA[
+<p align="center">
+<font color="#080000" face="Arial" size="12"><b>Mira el siguiente video</b></font></p>
+]]></texto>
+              <ctexto>000000</ctexto>
+              <chtml>1</chtml>
+        </paxina>
+    </libro>
+</lim>
